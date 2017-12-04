@@ -1,0 +1,122 @@
+<!--
+<small>    <big>    <del>
+.page-header
+.text-right      .text-center       .text-left
+.text-uppercase  .text-lowercase    .text-capitalize
+.list-unstyled   .list-inline
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <!--适应移动端-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="">
+
+    <title>Starter Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="bootstrap-4.0.0-beta.2-dist/css/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+    <style type="text/css">
+        body {
+            padding-top: 5rem;
+        }
+
+        .starter-template {
+            padding: 3rem 1.5rem;
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+
+<body>
+    <!--container 固定width: 1170px-->
+    <!--container-fluid 固定width: 100%-->
+    <div class="container">
+        <div class="starter-template">
+            <h1 class="page-header">Bootstrap starter template</h1>
+            <small class="text-lowercase">Bootstrap starter template</small> <br>
+            <big class="text-uppercase">Bootstrap starter template</big>
+            <p class="lead text-capitalize">Use this document as a way to quickly start any new project.
+                <br><del>All you get is this text and a mostly barebones HTML document.</del></p>
+        </div>
+        <div>
+            <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">AAA</li>
+                <li class="list-inline-item">BBB</li>
+                <li class="list-inline-item">CCC</li>
+            </ul>
+        </div>
+
+        /* table-responsive: 用于移动端，自适应屏幕，出现滚动条， 添加在table的父标签*/
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover table-striped">
+                <tr class="table-active">
+                    <td>ID</td>
+                    <td>NAME</td>
+                    <td>STATUS</td>
+                </tr>
+                <tr class="table-success">
+                    <td>001</td>
+                    <td>AAA</td>
+                    <td>Shipping</td>
+                </tr>
+                <tr class="table-info">
+                    <td>002</td>
+                    <td>BBB</td>
+                    <td>Shipping</td>
+                </tr>
+                <tr class="table-warning">
+                    <td>003</td>
+                    <td>CCC</td>
+                    <td>Recieved</td>
+                </tr>
+                <tr class="table-danger">
+                    <td>004</td>
+                    <td>DDD</td>
+                    <td>Recieved</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script>
+        (function() {
+            'use strict'
+
+            if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+                var msViewportStyle = document.createElement('style')
+                msViewportStyle.appendChild(
+                    document.createTextNode(
+                        '@-ms-viewport{width:auto!important}'
+                    )
+                )
+                document.head.appendChild(msViewportStyle)
+            }
+
+        }())
+
+    </script>
+
+</body>
+
+</html>
