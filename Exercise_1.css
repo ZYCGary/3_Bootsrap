@@ -1,0 +1,94 @@
+.logo {
+    width: 40px;
+    height: 40px;
+    border: 1px white solid;
+    border-radius: 5px;
+}
+
+#content {
+    align-items: center;
+}
+
+#content-title {
+    font-weight: 150%;
+    color: mediumpurple;
+    margin-bottom: 15px;
+}
+
+main {
+    padding: 10rem 4rem;
+}
+
+.starter-template {
+    padding: 5rem 1.5rem;
+    text-align: center;
+}
+
+.gs-dl {
+    text-align: left;
+    padding-left: 0;
+    padding-right: 1rem;
+}
+
+.getStarted {
+    border: 1px solid mediumpurple;
+    width: 100%;
+}
+
+.getStarted:hover {
+    background-color: mediumpurple
+}
+
+.download {
+    border: 1px solid gray;
+    width: 100%;
+}
+
+
+.version {
+    font-size: 12px;
+}
+
+.carbon {
+    max-width: 330px;
+    background-color: rgb(245, 245, 245);
+    padding: 13px;
+    overflow: hidden;
+}
+
+.ads {
+    font-size: 14px;
+    color: black;
+    float: left;
+}
+
+.ads:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.ele {
+    border: 1px solid white;
+}
+
+.codes {
+    margin: 0;
+    padding: 0;
+}
+
+.code {
+    font-size: 12px;
+    overflow: auto;
+    white-space: nowrap;
+    margin-bottom: 2rem;
+}
+
+
+
+.hr {
+    width: 6rem;
+    margin: 2.5rem 0;
+    color: gray;
+}

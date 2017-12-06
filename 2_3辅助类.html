@@ -1,3 +1,7 @@
+<!--
+float-left/right
+clearfix 清楚浮动
+-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,38 +19,37 @@
 
     <!-- Custom styles for this template -->
     <style type="text/css">
+        .top {
+            width: 500px;
+            border: 3px solid blue;
+            margin: 10px auto;
+            /*overflow: hidden;*/
+        }
 
+        .float-left {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+
+        .float-right {
+            width: 200px;
+            height: 200px;
+            background-color: green;
+        }
 
     </style>
 </head>
 
 
 <body>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md col-sm-6 col-6 col-xl col-lg">
-                <img src="images/car.jpeg" alt="car" class="img-fluid img-thumbnail">
-                <div class="page-header">
-                    <h1>Car</h1>
-                </div>
-                <p>
-                    作为开发者，我们需要了解一些宝贵的UI开源框架资源，它们可以帮助我们更快更好地实现一些现代化的界面，包括一些移动设备的网页界面风格设计。本文汇总了目前18个公认的世界顶级UI开源框架（附官网、Github以及各自的教程），欢迎大家学习使用。
-                </p>
+    <div class="container" style="background-color: aquamarine">
+        <div class="top clearfix">
+            <div class="float-left">
+                Left
             </div>
-            <div class="col-md col-sm-6 col-6 col-xl col-lg">
-                <img src="images/car.jpeg" alt="car" class="table-responsive img-thumbnail">
-                <h1 class="page-header">Car</h1>
-                <p>
-                    作为开发者，我们需要了解一些宝贵的UI开源框架资源，它们可以帮助我们更快更好地实现一些现代化的界面，包括一些移动设备的网页界面风格设计。本文汇总了目前18个公认的世界顶级UI开源框架（附官网、Github以及各自的教程），欢迎大家学习使用。
-                </p>
-            </div>
-            <div class="col-md col-sm-6 col-6 col-xl col-lg">
-                <img src="images/car.jpeg" alt="car" class="table-responsive img-thumbnail">
-                <h1 class="page-header">Car</h1>
-                <p>
-                    作为开发者，我们需要了解一些宝贵的UI开源框架资源，它们可以帮助我们更快更好地实现一些现代化的界面，包括一些移动设备的网页界面风格设计。本文汇总了目前18个公认的世界顶级UI开源框架（附官网、Github以及各自的教程），欢迎大家学习使用。
-                </p>
+            <div class="float-right">
+                Right
             </div>
         </div>
     </div>
